@@ -5,12 +5,12 @@
         border-bottom-right-radius: 0;
 
         h1 {
-            font-size: 50px;
+            font-size: 5vh;
         }
 
         .blockLine {
             p {
-                font-size: 1.5vh;
+                font-size: 2.5vh;
                 padding: 0% 1%;
             }
         }
@@ -63,7 +63,7 @@
             margin: 2.5px 0px;
 
             p {
-                font-size: 1.4vh;
+                font-size: 2vh;
                 text-align: start;
                 width: 80%;
             }
@@ -97,7 +97,7 @@
         }
 
         .linkedin {
-            height: 30px;
+            height: 15px;
         }
     }
 
@@ -152,6 +152,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        flex-wrap: wrap;
         margin-top: 50px;
         height: auto;
         border-radius: 10px;
@@ -161,14 +162,14 @@
             padding: 3% 0%;
 
             li {
-                font-size: 20px;
+                font-size: 2vh;
                 padding: 1% 0%;
                 color: rgb(60, 111, 178)
             }
         }
 
         p {
-            font-size: 3vw;
+            font-size: 2vh;
             color: rgb(60, 111, 178);
         }
 
@@ -181,7 +182,7 @@
         }
 
         img {
-            height: 50px;
+            height: 30px;
 
         }
 
@@ -194,8 +195,8 @@
             align-items: flex-start;
             justify-content: space-evenly;
             flex-direction: row;
-            flex-wrap: nowrap;
-            width: 100%;
+            flex-wrap: wrap;
+            width:80%;
             margin: 5px;
             border-radius: 10px;
 
@@ -205,10 +206,11 @@
                 justify-content: center;
                 flex-direction: column;
                 flex-wrap: wrap;
-                height: 100%;
+                height: 30%;
+                width: 30%;
 
                 p {
-                    font-size: 18px;
+                    font-size: 2vh;
                     text-align: center;
                     width: 100%;
                 }
@@ -237,7 +239,7 @@
         p {
             text-align: center;
             width: 100%;
-            font-size: 3vw;
+            font-size: 3vh;
             color: rgb(255, 255, 255);
         }
 
@@ -257,7 +259,7 @@
             width: 100%;
 
             p {
-                font-size: 20px;
+                font-size: 2vh;
                 color: rgb(255, 255, 255);
                 background-color: rgba(255, 255, 255, 0.195);
                 padding: 2% 0%;
@@ -270,7 +272,7 @@
                 width: 75%;
 
                 img {
-                    height: 10vw;
+                    height: 15vw;
                     margin: 10px 0px;
                 }
 
@@ -279,12 +281,12 @@
                     background-color: rgba(255, 255, 255, 0);
                     margin-left: 10px;
                     text-align: start;
-                    font-size: 1.5vw;
+                    font-size: 2vh;
                     width: 80%;
                 }
 
                 .marginText {
-                    margin-left: 3vw;
+                    margin-left: 3.5vh;
                 }
 
                 a {
@@ -315,7 +317,7 @@
             justify-content: center;
             flex-direction: column;
             width: 100%;
-            font-size: 1.6vw;
+            font-size: 2vh;
             color: rgb(60, 111, 178);
             height: auto;
             margin-top: 50px;
@@ -392,7 +394,7 @@
         .parcours {
             display: flex;
             align-items: flex-start;
-            margin: 30px;
+            margin: 0;
         }
 
         .ligne {
@@ -408,32 +410,23 @@
         }
 
         .button {
-            margin: 20px;
+            margin: 2px;
             font-size: 15px;
             color: rgb(255, 255, 255);
             height: 50px;
-            width: 140px;
+            width: 100%;
             border-radius: 10px;
             border: none;
             border: solid whitesmoke;
 
-            .buttonValide {
-                margin: 20px;
-                font-size: 15px;
-                height: 50px;
-                width: 140px;
-                border-radius: 10px;
-                border: solid rgb(40, 105, 166);
-                background-color: #ffffff8e;
-                color: rgb(39, 109, 171);
-            }
+
 
             .button:hover {
                 border: solid whitesmoke;
                 background-color: #305179c3;
                 color: whitesmoke;
             }
-
+        }
             #emplois22,
             #emplois17,
             #emplois15,
@@ -445,13 +438,14 @@
                 list-style: none;
 
                 .metier {
-                    font-size: 1.6vw;
+                    font-size: 2vh;
                 }
 
                 li {
                     margin: 5px 0px;
                 }
             }
+ 
 
             .boiteParcour {
                 height: 450px;
@@ -468,10 +462,19 @@
             .time {
                 display: flex;
                 flex-direction: row;
-                justify-content: space-evenly;
+                justify-content: space-around;
                 width: 100%;
-                height: 10px;
             }
+        
+        .buttonValide {
+            margin: 2px;
+            font-size: 15px;
+            height: 50px;
+            width: 100%;
+            border-radius: 10px;
+            border: solid rgb(40, 105, 166);
+            background-color: #ffffff5d;
+            color: rgb(39, 109, 171);
         }
     }
         footer {
