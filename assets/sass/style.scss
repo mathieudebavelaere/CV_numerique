@@ -3,36 +3,30 @@
     padding: 0%;
     //border: solid red;
 }
+@keyframes snowfall{
+    0%{
+      background-position: 0 0;
+      background-size: 700px;
+    }
+    50%{
+        background-position: -100px 0px;
+        background-size: 900px;
 
-body {
-    //background-color: rgb(49, 49, 49);
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
+    }
+    100%{
+        background-position: 0 0;
+        background-size: 700px;
+
+    }
+  }
+.title {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 3vh;
+    color: rgb(60, 111, 178);
 }
-
-header {
-    height: auto;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: auto;
-    width: 100%;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+.backgroundLinear{
+    animation: snowfall 3s infinite;
     background-attachment: fixed;
     background-image: linear-gradient(45deg,
             transparent 0%,
@@ -64,6 +58,37 @@ nav {
             transparent 100%),
         linear-gradient(90deg, rgba(62, 126, 203, 0.853), rgba(9, 171, 240, 0.597));
 
+}
+body {
+    //background-color: rgb(49, 49, 49);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+header {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
     h1 {
         height: 65px;
         font-family: Pacifico;
@@ -71,7 +96,7 @@ nav {
         color: rgb(255, 255, 255);
 
     }
-
+    
     .blockLine {
         height: 40px;
         width: 100%;
@@ -113,37 +138,7 @@ nav {
     padding: 2% 0%;
     border-radius: 10px;
     border: solid rgba(255, 255, 255, 0.482) 5px;
-    background-attachment: fixed;
-    background-image: linear-gradient(45deg,
-            transparent 0%,
-            transparent 55%,
-            rgba(9, 78, 240, 0.463) 55%,
-            rgba(35, 72, 175, 0.404) 76%,
-            transparent 76%,
-            transparent 100%),
-        linear-gradient(135deg,
-            transparent 0%,
-            transparent 14%,
-            rgba(9, 201, 240, 0.627) 14%,
-            rgba(15, 136, 188, 0.485) 41%,
-            transparent 41%,
-            transparent 100%),
-        linear-gradient(45deg,
-            transparent 0%,
-            transparent 2%,
-            rgba(9, 36, 240, 0.346) 2%,
-            rgba(11, 79, 152, 0.337) 18%,
-            transparent 18%,
-            transparent 100%),
-        linear-gradient(135deg,
-            transparent 0%,
-            transparent 61%,
-            rgba(28, 108, 182, 0.491) 61%,
-            rgba(52, 54, 162, 0.697) 71%,
-            transparent 71%,
-            transparent 100%),
-        linear-gradient(90deg, rgba(62, 126, 203, 0.853), rgba(9, 171, 240, 0.597));
-
+   
 }
 
 .profil {
@@ -160,12 +155,6 @@ nav {
     width: 50%;
     color: rgb(52, 52, 52);
 
-    p {
-        margin-top: 25px;
-        text-align: center;
-        font-size: 3vh;
-        color: rgb(60, 111, 178);
-    }
 
     .line {
         height: 0px;
@@ -354,37 +343,7 @@ nav {
     margin-top: 50px;
     border-radius: 10px;
     border: solid rgba(255, 255, 255, 0.482) 5px;
-    background-attachment: fixed;
-    background-image: linear-gradient(45deg,
-            transparent 0%,
-            transparent 55%,
-            rgba(9, 78, 240, 0.463) 55%,
-            rgba(35, 72, 175, 0.404) 76%,
-            transparent 76%,
-            transparent 100%),
-        linear-gradient(135deg,
-            transparent 0%,
-            transparent 14%,
-            rgba(9, 201, 240, 0.627) 14%,
-            rgba(15, 136, 188, 0.485) 41%,
-            transparent 41%,
-            transparent 100%),
-        linear-gradient(45deg,
-            transparent 0%,
-            transparent 2%,
-            rgba(9, 36, 240, 0.346) 2%,
-            rgba(11, 79, 152, 0.337) 18%,
-            transparent 18%,
-            transparent 100%),
-        linear-gradient(135deg,
-            transparent 0%,
-            transparent 61%,
-            rgba(28, 108, 182, 0.491) 61%,
-            rgba(52, 54, 162, 0.697) 71%,
-            transparent 71%,
-            transparent 100%),
-        linear-gradient(90deg, rgba(62, 126, 203, 0.853), rgba(9, 171, 240, 0.597));
-
+   
     p {
         text-align: center;
         width: 100%;
@@ -561,37 +520,7 @@ nav {
         border-radius: 10px;
         border: none;
         border: solid whitesmoke;
-        background-attachment: fixed;
-        background-image: linear-gradient(45deg,
-                transparent 0%,
-                transparent 55%,
-                rgba(9, 78, 240, 0.463) 55%,
-                rgba(35, 72, 175, 0.404) 76%,
-                transparent 76%,
-                transparent 100%),
-            linear-gradient(135deg,
-                transparent 0%,
-                transparent 14%,
-                rgba(9, 201, 240, 0.627) 14%,
-                rgba(15, 136, 188, 0.485) 41%,
-                transparent 41%,
-                transparent 100%),
-            linear-gradient(45deg,
-                transparent 0%,
-                transparent 2%,
-                rgba(9, 36, 240, 0.346) 2%,
-                rgba(11, 79, 152, 0.337) 18%,
-                transparent 18%,
-                transparent 100%),
-            linear-gradient(135deg,
-                transparent 0%,
-                transparent 61%,
-                rgba(28, 108, 182, 0.491) 61%,
-                rgba(52, 54, 162, 0.697) 71%,
-                transparent 71%,
-                transparent 100%),
-            linear-gradient(90deg, rgba(62, 126, 203, 0.853), rgba(9, 171, 240, 0.597));
-    }
+ }
 
     .buttonValide {
         margin: 20px;
@@ -600,7 +529,7 @@ nav {
         width: 140px;
         border-radius: 10px;
         border: solid rgb(40, 105, 166);
-        background-color: #ffffff8e;
+        background-color: #ffffffe5;
         color: rgb(39, 109, 171);
     }
 
@@ -656,36 +585,7 @@ footer{
     width: 100%;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    background-attachment: fixed;
-    background-image: linear-gradient(45deg,
-            transparent 0%,
-            transparent 55%,
-            rgba(9, 78, 240, 0.463) 55%,
-            rgba(35, 72, 175, 0.404) 76%,
-            transparent 76%,
-            transparent 100%),
-        linear-gradient(135deg,
-            transparent 0%,
-            transparent 14%,
-            rgba(9, 201, 240, 0.627) 14%,
-            rgba(15, 136, 188, 0.485) 41%,
-            transparent 41%,
-            transparent 100%),
-        linear-gradient(45deg,
-            transparent 0%,
-            transparent 2%,
-            rgba(9, 36, 240, 0.346) 2%,
-            rgba(11, 79, 152, 0.337) 18%,
-            transparent 18%,
-            transparent 100%),
-        linear-gradient(135deg,
-            transparent 0%,
-            transparent 61%,
-            rgba(28, 108, 182, 0.491) 61%,
-            rgba(52, 54, 162, 0.697) 71%,
-            transparent 71%,
-            transparent 100%),
-        linear-gradient(90deg, rgba(62, 126, 203, 0.853), rgba(9, 171, 240, 0.597));
+
     p {
         color: white;
     }
