@@ -3,12 +3,13 @@
     padding: 0%;
     //border: solid red;
 }
-.title {
+h2{
     margin-top: 25px;
+    width: 100%;
     text-align: center;
-    font-size: 3vh;
     color: rgb(60, 111, 178);
 }
+
 .backgroundLinear{
     position: relative;
     top: 0;
@@ -53,6 +54,7 @@ body {
     flex-direction: column;
     width: 100%;
     height: auto;
+
 }
 
 header {
@@ -91,6 +93,7 @@ nav {
         color: whitesmoke;
 
         p {
+            
             font-size: 3vh;
             padding: 0% 1%;
         }
@@ -102,7 +105,6 @@ nav {
         border: solid rgb(255, 255, 255) 1px;
         border-radius: 50px;
     }
-
 }
 
 .presentation {
@@ -112,7 +114,6 @@ nav {
     margin-top: 3vw;
     width: 100%;
     height: auto;
-    
 }
 
 .blockProfil {
@@ -124,8 +125,9 @@ nav {
     padding: 2% 0%;
     border-radius: 10px;
     border: solid rgba(255, 255, 255, 0.482) 5px;
-
-   
+    h2{
+        color:rgb(255, 255, 255);
+    }
 }
 
 .profil {
@@ -140,7 +142,7 @@ nav {
     flex-direction: column;
     height: auto;
     width: 50%;
-    color: rgb(52, 52, 52);
+    color: rgb(60, 111, 178);
 
 
     .line {
@@ -308,8 +310,10 @@ nav {
             flex-direction: column;
             flex-wrap: wrap;
             height: 100%;
-            p {
-                font-size: 20px;
+            h3 {
+                width: 45%;
+                text-align: center;
+                color: rgb(60, 111, 178);
             }
             .line {
                 width: 1px;
@@ -331,10 +335,9 @@ nav {
     border-radius: 10px;
     border: solid rgba(255, 255, 255, 0.482) 5px;
    
-    p {
+    h2 {
         text-align: center;
         width: 100%;
-        font-size: 3vw;
         color: rgb(255, 255, 255);
     }
 
@@ -354,9 +357,11 @@ nav {
         width: 100%;
         p{
             font-size: 20px;
+            text-align: center;
             color: rgb(255, 255, 255);
             background-color: rgba(255, 255, 255, 0.195);
             padding: 2% 0%;
+            width: 100%;
         }
         div {
             display: flex;
