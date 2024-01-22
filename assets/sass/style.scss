@@ -532,7 +532,8 @@ nav {
     #emplois13,
     #emplois11 {
         position: absolute;
-        margin: 80px;
+        margin-top: 40px;
+        width: auto;
         color: rgb(25, 66, 119);
         list-style: none;
         .metier {
@@ -544,13 +545,13 @@ nav {
     }
 
     .boiteParcour {
-        height: 450px;
+        height: 500px;
         width: 80%;
-        transition: 1.5s;
+        transition: 1s;
     }
 
     .boiteParcour2 {
-        height: 500px;
+        height: 50px;
         width: 80%;
         transition: 1s;
     }

@@ -436,7 +436,6 @@
             #emplois15,
             #emplois13,
             #emplois11 {
-                position: absolute;
                 color: rgb(25, 66, 119);
                 list-style: none;
 
@@ -483,8 +482,6 @@
         }
     }
         footer {
-            position: relative;
-            bottom: 0;
             display: flex;
             align-items: center;
             justify-content: center;
