@@ -3,14 +3,15 @@
     padding: 0%;
     //border: solid red;
 }
-h2{
+
+h2 {
     margin-top: 25px;
     width: 100%;
     text-align: center;
     color: rgb(60, 111, 178);
 }
 
-.backgroundLinear{
+.backgroundLinear {
     position: relative;
     top: 0;
     background-attachment: fixed;
@@ -83,7 +84,7 @@ nav {
         color: rgb(255, 255, 255);
 
     }
-    
+
     .blockLine {
         height: 40px;
         width: 100%;
@@ -93,7 +94,7 @@ nav {
         color: whitesmoke;
 
         p {
-            
+
             font-size: 3vh;
             padding: 0% 1%;
         }
@@ -125,8 +126,9 @@ nav {
     padding: 2% 0%;
     border-radius: 10px;
     border: solid rgba(255, 255, 255, 0.482) 5px;
-    h2{
-        color:rgb(255, 255, 255);
+
+    h2 {
+        color: rgb(255, 255, 255);
     }
 }
 
@@ -160,18 +162,22 @@ nav {
         justify-content: space-between;
         width: 100%;
         margin: 2.5px 0px;
+
         p {
             font-size: 2.4vh;
             text-align: start
         }
+
         img {
             margin-top: 10px;
             height: 60px;
         }
+
         .heightImg {
             margin-top: 20px;
             height: 30px;
         }
+
         span {
             font-size: 2.4vh;
             color: goldenrod;
@@ -241,9 +247,11 @@ nav {
         justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
+
         a {
             width: 20%;
         }
+
         p {
             display: flex;
             align-items: center;
@@ -263,14 +271,17 @@ nav {
     height: auto;
     border-radius: 10px;
     width: 100%;
+
     ul {
         padding: 3% 0%;
+
         li {
             font-size: 20px;
             padding: 1% 0%;
             color: rgb(60, 111, 178)
         }
     }
+
     p {
         font-size: 3vw;
         color: rgb(60, 111, 178);
@@ -310,14 +321,17 @@ nav {
             flex-direction: column;
             flex-wrap: wrap;
             height: 100%;
+
             h3 {
                 width: 45%;
                 text-align: center;
                 color: rgb(60, 111, 178);
             }
+
             .line {
                 width: 1px;
             }
+
             img {
                 padding: 5% 0%;
             }
@@ -334,7 +348,7 @@ nav {
     margin-top: 50px;
     border-radius: 10px;
     border: solid rgba(255, 255, 255, 0.482) 5px;
-   
+
     h2 {
         text-align: center;
         width: 100%;
@@ -355,7 +369,8 @@ nav {
         justify-content: center;
         flex-direction: column;
         width: 100%;
-        p{
+
+        p {
             font-size: 20px;
             text-align: center;
             color: rgb(255, 255, 255);
@@ -363,6 +378,7 @@ nav {
             padding: 2% 0%;
             width: 100%;
         }
+
         div {
             display: flex;
             align-items: center;
@@ -382,15 +398,19 @@ nav {
                 font-size: 1.5vw;
                 width: 80%;
             }
+
             .marginText {
                 margin-left: 3vw;
             }
-            a{
+
+            a {
                 transition: 0.3s;
             }
+
             a:hover {
                 filter: drop-shadow(0px 0px 10px white);
-                transition: 0.3s;;
+                transition: 0.3s;
+                ;
             }
         }
     }
@@ -488,6 +508,8 @@ nav {
     .parcours {
         display: flex;
         align-items: flex-start;
+        justify-content: center;
+        width: 100%;
         margin: 30px;
     }
 
@@ -512,7 +534,7 @@ nav {
         border-radius: 10px;
         border: none;
         border: solid whitesmoke;
- }
+    }
 
     .buttonValide {
         margin: 20px;
@@ -538,12 +560,18 @@ nav {
     #emplois11 {
         position: absolute;
         margin-top: 40px;
-        width: auto;
         color: rgb(25, 66, 119);
         list-style: none;
+
         .metier {
-            font-size: 1.6vw;
+            margin-top: 2vh;
+            font-size: 2.5vh;
+            width: 100%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgba(73, 121, 185, 0.815);
+            border-bottom: solid #30517989 1.5px;
         }
+
         li {
             margin: 5px 0px;
         }
@@ -569,7 +597,8 @@ nav {
         height: 10px;
     }
 }
-footer{
+
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -583,4 +612,5 @@ footer{
         color: white;
     }
 }
-@import "./mobil"; 
+
+@import "./mobil";
