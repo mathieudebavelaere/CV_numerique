@@ -43,7 +43,7 @@
             margin-top: 25px;
             font-size: 2.5vh;
             color: rgb(60, 111, 178);
-            width: 90%;
+            width: 100%;
         }
 
         .line {
@@ -65,7 +65,10 @@
             p {
                 font-size: 2vh;
                 text-align: start;
-                width: 80%;
+                width: 100%;
+            }
+            strong {
+                font-size: 2.5vh;
             }
 
             img {
@@ -115,7 +118,7 @@
             text-align: center;
             color: white;
             font-size: 2vh;
-            height: 40px;
+            height: 20px;
         }
 
         .line {
@@ -161,8 +164,10 @@
 
         ul {
             padding: 3% 0%;
+            width: 60%;
 
             li {
+                width: 100%;
                 font-size: 2vh;
                 padding: 1% 0%;
             }
@@ -267,10 +272,11 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
+                flex-direction: column;
                 width: 95%;
 
                 img {
-                    height: 15vw;
+                    height: 25vh;
                     margin: 10px 0px;
                 }
 
@@ -411,12 +417,12 @@
             margin: 2px;
             font-size: 15px;
             color: rgb(255, 255, 255);
-            height: 50px;
-            width: 100%;
+            height: 40px;
+            width: 90%;
             border-radius: 10px;
             border: none;
             border: solid whitesmoke;
-
+            transition: 0.1s;
 
 
             .button:hover {
@@ -459,8 +465,10 @@
             .time {
                 display: flex;
                 flex-direction: row;
+                align-items: center;
                 justify-content: space-around;
                 width: 100%;
+                height: 50px;
             }
         
         .buttonValide {
@@ -470,8 +478,8 @@
             width: 100%;
             border-radius: 10px;
             border: solid rgb(40, 105, 166);
-            background-color: #ffffffd2;
-            color: rgb(39, 109, 171);
+            color: rgb(255, 255, 255);
+            transition: 0.1s;
         }
     }
         footer {
